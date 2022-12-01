@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Some method</title>
+</head>
+<body>
+	<script type="text/javascript">
+				let students=[{
+			'name':'mani',
+			'clg': 'AEC',
+			'pin': 12,
+			'email': 'manitejas01@gmail.com'
+		},{
+			'name': 'Tejas',
+			'clg': 'ACOE',
+			'pin': 34,
+			'email': 'manitejas02@gmail.com'
+
+		},{
+			'name': 'siva',
+			'clg': 'ACET',
+			'pin': 56,
+			'email': 'manitejas03@gmail.com'
+
+		},{
+			'name': 'nani',
+			'clg': 'AEC',
+			'pin': 123,
+			'email': 'manitejas04@gmail.com'
+
+		},{
+			'name': 'sasi',
+			'clg': 'ACOE',
+			'pin': 78,
+			'email': 'manitejas05@gmail.com'
+
+		},{
+			'name': 'suri',
+			'clg': 'ACET',
+			'pin': 90,
+			'email': 'manitejas06@gmail.com'
+
+		}];
+		let emails=['manitej123@gmail.com','manitej234@gmail.com','manitej345@gmail.com','manitej456@gmail.com','manitej567@gmail.com','manitej678@gmail.com','manitej789@gmail.com','manitej890@gmail.com']
+		let email_undha_ledha=students.some(function(email,ind,arr){
+			return email.email=='manitejas06@gmail.com';
+		})
+		console.log(email_undha_ledha);
+	</script>
+
+</body>
+</html>

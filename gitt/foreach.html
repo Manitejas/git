@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>For Each</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// let salaries=[400000,300000,500000];
+		// console.log(salaries);
+		// salaries.forEach(function(amount,index,arr){
+		// 	var bonus=amount/10;
+		// 	console.log(bonus);
+		// 	arr[index]= amount + bonus;
+		// });
+		// console.log(salaries);
+		var abc=[
+			{
+				"name":"mani",
+				"salary" : 40000,
+				"college": "AEC",
+			},
+			{
+				"name":"tejas",
+				"salary" : 60000,
+				"college":"ACET",
+			},
+			{
+				"name":"siva",
+				"salary" : 80000,
+				"college":"ACOE",
+			}
+		];
+		console.log(abc.mani.salary);
+		abc.mani.salary.forEach(function(name,index,arr){
+			var bonus = abc.name.salary/10;
+			console.log(bonus);
+		});
+	</script>
+
+</body>
+</html>
